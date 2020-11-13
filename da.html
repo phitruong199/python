@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>PHÂN TÍCH DỮ LIỆU</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">ĐỒ ÁN LẬP TRÌNH PHÂN TÍCH DỮ LIỆU 1</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                 <a class="btn btn-danger btn-xl text-uppercase js-scroll-trigger" href="index.html">HOME PAGE</a>
+                <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger" href="trucquanhoa/index.html">SIMPLE CHART</a>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                
+                <h1 style="color: yellow">ANALYZING POKEMON WITH STATS DATA</h1>
+                <div class="masthead-subheading">Phân tích dữ liệu</div>
+                <a href="#about" class="btn btn-info" style="font-weight: bold;">NHẤP ĐỂ XEM CHI TIẾT</a>
+                
+            </div>
+        </header>
+        <!-- Services-->
+    <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">GIỚI THIỆU CHUNG</h2>
+                    
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa fa-bell fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">LÝ DO CHỌN ĐỀ TÀI</h4>
+                        <p class="text-muted">Với những ký ức tuổi thơ về POKEMON nên em đã quyết định chọn tập dữ liệu nào đó để thực hiện việc xây dựng “WEBSITE TRỰC QUAN HÓA VÀ PHÂN TÍCH DỮ LIỆU” về POKEMON. Và sau thời gian lựa chọn, em đã quyết định chọn tập POKEMON WITH STATS để thực hiện đề tài. </p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">POKEMON WITH STATS</h4>
+                        <p class="text-muted">POKEMON WITH STATS mô tả hơn 700 Pokemon trong phim hoạt hình cùng tên. Bộ dữ liệu bao gồm số lượng, tên, các hệ của POKEMON và các chỉ số cơ bản của một POKEMON. Đây là tập dữ liệu được sử dụng rất nhiều khi dạy xác suất thống kê vì nó dễ hiểu và gần gũi.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">THƯ VIỆN PLOTLY</h4>
+                        <p class="text-muted">Tính tương tác mà Plotly đem đến giúp các biểu đồ thêm trực quan và thú vị hơn. Không những thế Plotly còn nhanh, dễ sử dụng (nhờ tài liệu hướng dẫn tuyệt vời), và kết hợp tốt với các thư viện khác của Python như NumPy và pandas. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">PHÂN TÍCH DỮ LIỆU</h2>
+                    <h3 class="section-subheading text-muted">POKEMON WITH STATS</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/1.jpg" alt=""/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">CÁC POKEMON HUYỀN THOẠI</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Pokemon Huyền Thoại là từ mà chúng ta thường thấy trong các bộ phim hoạt hình, những game của thể loại này.  <br>
+<span style="color: red;font-weight: bold">Dùng Cột LEGENDARY để phân tích, nếu TRUE là POKEMON huyền thoại FLASE là POKEMON thường</span>
+                            </p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/2.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">POKEMON ĐƠN HỆ VÀ SONG HỆ</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Việc POKEMON có 2 hệ làm cho các POKEMON này trở nên có lợi hơn khi chiến đấu với các POKEMON khác. <br>
+<span style="color: red;font-weight: bold">Dùng Cột TYPE 1 và TYPE 2 để phân tích, đếm tổng số giá trị khác null ở cột 2 thì có được số POKEMON SONG HỆ và lấy tổng số cột TYPE 1 trừ đi tổng số giá trị khác null ở cột 2 ta được sô POKEMON ĐƠN HỆ</span></p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/4.png" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">SỐ POKEMON THEO TỪNG HỆ PHÂN BỔ Ở TYPE 1 </h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"><span style="color: red;font-weight: bold">Dùng Cột TYPE 1 để tiến hành đếm tần suất suất hiện của các phần tử có trong TYPE 1</span></p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/5.png" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">SỐ POKEMON THEO TỪNG HỆ PHÂN BỔ Ở TYPE 2. </h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"><span style="color: red;font-weight: bold">Dùng Cột TYPE 2 để tiến hành đếm tần suất suất hiện của các phần tử có trong TYPE 2</span></p></div>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/3.jpg" alt=""/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">SỐ POKEMON TĂNG THEO MỖI GENERATION (theo thế hệ)</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"><br>
+<span style="color: red;font-weight: bold">Dùng Cột GENERATION để tiến hành đếm tần suất suất hiện của các phần tử có trong GENERATION</span>
+                            </p></div>
+                        </div>
+                    </li>
+                     <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/6A.png" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">CÁC CHỈ SỐ TRUNG BÌNH CỦA POKEMON THEO GENERATION</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"><span style="color: red;font-weight: bold">Lấy giá trị trung bình của các chỉ số của POKEMON qua mỗi GENERATION để vẽ biểu đồ!</span></p></div>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/6A.jpg" alt=""/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">BIỂU ĐỒ BOXPLOT</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"><br>
+<span style="color: red;font-weight: bold">Sử dụng các chỉ số của POKEMON để tính các min, max, q1, q2, q3 và chỉ cần khai báo tên cột thì PLOTLY sẽ tự tính cho chúng ta</span>
+                            </p></div>
+                        </div>
+                    </li>
+                     <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/5.png" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading"> GIÁ TRỊ TOTAL TRUNG BÌNH CỦA POKEMON THEO TỪNG HỆ</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"><span style="color: red;font-weight: bold">Sử dụng giá trị trung bình của cột TOTAL theo tần suất của các phần tử suất hiện ở trong cột GENERATION để tính ra trung bình TOTAL của mỗi GENERATION</span></p></div>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/6B.png" alt=""/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">BIỂU ĐỒ HISTOGRAM CỦA CHỈ SỐ HP VÀ ATTACK </h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"><br>
+<span style="color: red;font-weight: bold">Chỉ cần khai báo tên cột, Plotly sẽ tự hiểu và thống kê tần số, tần suất cho chúng ta </span>
+                            </p></div>
+                        </div>
+                    </li>
+                     <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/5.png" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">Biểu đồ TreeMap </h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"><span style="color: red;font-weight: bold"></span></p></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">ĐỒ ÁN PYTHON 1.</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/truongphi245/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Modal 1-->
+      
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
